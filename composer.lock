@@ -10172,7 +10172,7 @@
                     "npm-asset"
                 ],
                 "drupal-libraries": {
-                    "library-directory": "docroot/libraries",
+                    "library-directory": "html/libraries",
                     "libraries": [
                         {
                             "name": "dropzone",
@@ -14508,33 +14508,33 @@
                     "npm-asset"
                 ],
                 "installer-paths": {
-                    "docroot/core": [
+                    "html/core": [
                         "drupal/core"
                     ],
-                    "docroot/profiles/{$name}": [
+                    "html/profiles/{$name}": [
                         "type:drupal-profile"
                     ],
-                    "docroot/modules/contrib/{$name}": [
+                    "html/modules/contrib/{$name}": [
                         "type:drupal-module"
                     ],
-                    "docroot/themes/contrib/{$name}": [
+                    "html/themes/contrib/{$name}": [
                         "type:drupal-theme"
                     ],
-                    "docroot/libraries/slick": [
+                    "html/libraries/slick": [
                         "npm-asset/slick-carousel"
                     ],
-                    "docroot/libraries/ace": [
+                    "html/libraries/ace": [
                         "npm-asset/ace-builds"
                     ],
-                    "docroot/libraries/{$name}": [
+                    "html/libraries/{$name}": [
                         "type:drupal-library",
                         "type:bower-asset",
                         "type:npm-asset"
                     ],
-                    "docroot/modules/custom/{$name}": [
+                    "html/modules/custom/{$name}": [
                         "type:drupal-custom-module"
                     ],
-                    "docroot/themes/custom/{$name}": [
+                    "html/themes/custom/{$name}": [
                         "type:drupal-custom-theme"
                     ],
                     "drush/contrib/{$name}": [
@@ -14542,7 +14542,7 @@
                     ]
                 },
                 "drupal-libraries": {
-                    "library-directory": "docroot/libraries",
+                    "library-directory": "html/libraries",
                     "libraries": [
                         {
                             "name": "dropzone",

@@ -1,11 +1,12 @@
 # Ignore paths that contain user-generated content.
-docroot/*/settings.local.php
-docroot/files
-docroot/sites/*/files
-docroot/sites/*/private
+html/*/settings.local.php
+html/files
+html/sites/*/files
+html/sites/*/private
 acquia-file
 /log
-docroot/sites/default/settings.local.php
+html/sites/default/settings.local.php
+html/sites/default/settings.php
 
 
 # Ignore vim swp files and gedit temp files

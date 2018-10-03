@@ -83,23 +83,23 @@
       "npm-asset"
     ],
     "installer-paths": {
-      "docroot/core": ["drupal/core"],
-      "docroot/profiles/{$name}": ["type:drupal-profile"],
-      "docroot/modules/contrib/{$name}": ["type:drupal-module"],
-      "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
-      "docroot/libraries/slick": ["npm-asset/slick-carousel"],
-      "docroot/libraries/ace": ["npm-asset/ace-builds"],
-      "docroot/libraries/{$name}": [
+      "html/core": ["drupal/core"],
+      "html/profiles/{$name}": ["type:drupal-profile"],
+      "html/modules/contrib/{$name}": ["type:drupal-module"],
+      "html/themes/contrib/{$name}": ["type:drupal-theme"],
+      "html/libraries/slick": ["npm-asset/slick-carousel"],
+      "html/libraries/ace": ["npm-asset/ace-builds"],
+      "html/libraries/{$name}": [
         "type:drupal-library",
         "type:bower-asset",
         "type:npm-asset"
       ],
-      "docroot/modules/custom/{$name}": ["type:drupal-custom-module"],
-      "docroot/themes/custom/{$name}": ["type:drupal-custom-theme"],
+      "html/modules/custom/{$name}": ["type:drupal-custom-module"],
+      "html/themes/custom/{$name}": ["type:drupal-custom-theme"],
       "drush/contrib/{$name}": ["type:drupal-drush"]
     },
     "drupal-libraries": {
-      "library-directory": "docroot/libraries",
+      "library-directory": "html/libraries",
       "libraries": [
           {"name": "dropzone","package": "npm-asset/dropzone"},
           {"name": "blazy", "package": "npm-asset/blazy"},
